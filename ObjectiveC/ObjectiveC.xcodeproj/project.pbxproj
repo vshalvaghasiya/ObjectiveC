@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8439A8DF202227AE003B64BB /* MyViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8439A8DE202227AE003B64BB /* MyViewViewController.m */; };
+		8439A8E32022341C003B64BB /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8439A8E22022341C003B64BB /* PickerViewController.m */; };
+		84675537201356B000BAA77C /* GestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84675536201356B000BAA77C /* GestureViewController.m */; };
+		8467553B2013589800BAA77C /* TapGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467553A2013589800BAA77C /* TapGestureViewController.m */; };
+		8467553F20135E5F00BAA77C /* PinchGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467553E20135E5F00BAA77C /* PinchGestureViewController.m */; };
+		8467554220135E7500BAA77C /* RotationGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467554120135E7500BAA77C /* RotationGestureViewController.m */; };
+		8467554720135EF200BAA77C /* SwipeGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467554620135EF200BAA77C /* SwipeGestureViewController.m */; };
+		8467554B20135F1600BAA77C /* PanGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467554A20135F1600BAA77C /* PanGestureViewController.m */; };
+		8467554F20135F3700BAA77C /* LongPressGestureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8467554E20135F3700BAA77C /* LongPressGestureViewController.m */; };
+		84EB209F20124D980060DEDC /* TableviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EB209E20124D980060DEDC /* TableviewViewController.m */; };
+		84EB20A3201254BC0060DEDC /* TableTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EB20A2201254BC0060DEDC /* TableTableViewCell.m */; };
+		84EB20A7201260A60060DEDC /* ImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EB20A6201260A60060DEDC /* ImagePickerViewController.m */; };
+		84FB9307200FC35500456A99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FB9306200FC35500456A99 /* AppDelegate.m */; };
+		84FB930A200FC35500456A99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FB9309200FC35500456A99 /* ViewController.m */; };
+		84FB930D200FC35500456A99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FB930B200FC35500456A99 /* Main.storyboard */; };
+		84FB930F200FC35500456A99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84FB930E200FC35500456A99 /* Assets.xcassets */; };
+		84FB9312200FC35500456A99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84FB9310200FC35500456A99 /* LaunchScreen.storyboard */; };
+		84FB9315200FC35500456A99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FB9314200FC35500456A99 /* main.m */; };
+		84FB931E200FC4F700456A99 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FB931D200FC4F700456A99 /* CollectionViewController.m */; };
+		84FB9322200FC57500456A99 /* CellCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FB9320200FC57500456A99 /* CellCollectionViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8439A8DD202227AE003B64BB /* MyViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewViewController.h; sourceTree = "<group>"; };
+		8439A8DE202227AE003B64BB /* MyViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewViewController.m; sourceTree = "<group>"; };
+		8439A8E12022341C003B64BB /* PickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
+		8439A8E22022341C003B64BB /* PickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
+		84675535201356B000BAA77C /* GestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GestureViewController.h; sourceTree = "<group>"; };
+		84675536201356B000BAA77C /* GestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GestureViewController.m; sourceTree = "<group>"; };
+		846755392013589800BAA77C /* TapGestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapGestureViewController.h; sourceTree = "<group>"; };
+		8467553A2013589800BAA77C /* TapGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TapGestureViewController.m; sourceTree = "<group>"; };
+		8467553D20135E5F00BAA77C /* PinchGestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinchGestureViewController.h; sourceTree = "<group>"; };
+		8467553E20135E5F00BAA77C /* PinchGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinchGestureViewController.m; sourceTree = "<group>"; };
+		8467554020135E7500BAA77C /* RotationGestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RotationGestureViewController.h; sourceTree = "<group>"; };
+		8467554120135E7500BAA77C /* RotationGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RotationGestureViewController.m; sourceTree = "<group>"; };
+		8467554520135EF200BAA77C /* SwipeGestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwipeGestureViewController.h; sourceTree = "<group>"; };
+		8467554620135EF200BAA77C /* SwipeGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwipeGestureViewController.m; sourceTree = "<group>"; };
+		8467554920135F1600BAA77C /* PanGestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PanGestureViewController.h; sourceTree = "<group>"; };
+		8467554A20135F1600BAA77C /* PanGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PanGestureViewController.m; sourceTree = "<group>"; };
+		8467554D20135F3700BAA77C /* LongPressGestureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongPressGestureViewController.h; sourceTree = "<group>"; };
+		8467554E20135F3700BAA77C /* LongPressGestureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongPressGestureViewController.m; sourceTree = "<group>"; };
+		84EB209D20124D980060DEDC /* TableviewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableviewViewController.h; sourceTree = "<group>"; };
+		84EB209E20124D980060DEDC /* TableviewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableviewViewController.m; sourceTree = "<group>"; };
+		84EB20A1201254BC0060DEDC /* TableTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableTableViewCell.h; sourceTree = "<group>"; };
+		84EB20A2201254BC0060DEDC /* TableTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableTableViewCell.m; sourceTree = "<group>"; };
+		84EB20A5201260A60060DEDC /* ImagePickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePickerViewController.h; sourceTree = "<group>"; };
+		84EB20A6201260A60060DEDC /* ImagePickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePickerViewController.m; sourceTree = "<group>"; };
+		84FB9302200FC35500456A99 /* ObjectiveC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjectiveC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FB9305200FC35500456A99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84FB9306200FC35500456A99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84FB9308200FC35500456A99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84FB9309200FC35500456A99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84FB930C200FC35500456A99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84FB930E200FC35500456A99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84FB9311200FC35500456A99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84FB9313200FC35500456A99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84FB9314200FC35500456A99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84FB931C200FC4F700456A99 /* CollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		84FB931D200FC4F700456A99 /* CollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
+		84FB9320200FC57500456A99 /* CellCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellCollectionViewCell.m; sourceTree = "<group>"; };
+		84FB9321200FC57500456A99 /* CellCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellCollectionViewCell.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84FB92FF200FC35500456A99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8439A8DC2022277A003B64BB /* MyWebView */ = {
+			isa = PBXGroup;
+			children = (
+				8439A8DD202227AE003B64BB /* MyViewViewController.h */,
+				8439A8DE202227AE003B64BB /* MyViewViewController.m */,
+			);
+			path = MyWebView;
+			sourceTree = "<group>";
+		};
+		8439A8E020223407003B64BB /* PickerView */ = {
+			isa = PBXGroup;
+			children = (
+				8439A8E12022341C003B64BB /* PickerViewController.h */,
+				8439A8E22022341C003B64BB /* PickerViewController.m */,
+			);
+			path = PickerView;
+			sourceTree = "<group>";
+		};
+		846755342013569C00BAA77C /* Gesture */ = {
+			isa = PBXGroup;
+			children = (
+				8439A8E020223407003B64BB /* PickerView */,
+				8439A8DC2022277A003B64BB /* MyWebView */,
+				8467554C20135F2300BAA77C /* LongPressGesture */,
+				8467554820135F0300BAA77C /* PanGesture */,
+				8467554420135EE000BAA77C /* SwipeGesture */,
+				8467554320135E8000BAA77C /* RotationGesture */,
+				8467553C20135E4900BAA77C /* PinchGesture */,
+				846755382013588200BAA77C /* TapGesture */,
+				84675535201356B000BAA77C /* GestureViewController.h */,
+				84675536201356B000BAA77C /* GestureViewController.m */,
+			);
+			path = Gesture;
+			sourceTree = "<group>";
+		};
+		846755382013588200BAA77C /* TapGesture */ = {
+			isa = PBXGroup;
+			children = (
+				846755392013589800BAA77C /* TapGestureViewController.h */,
+				8467553A2013589800BAA77C /* TapGestureViewController.m */,
+			);
+			path = TapGesture;
+			sourceTree = "<group>";
+		};
+		8467553C20135E4900BAA77C /* PinchGesture */ = {
+			isa = PBXGroup;
+			children = (
+				8467553D20135E5F00BAA77C /* PinchGestureViewController.h */,
+				8467553E20135E5F00BAA77C /* PinchGestureViewController.m */,
+			);
+			path = PinchGesture;
+			sourceTree = "<group>";
+		};
+		8467554320135E8000BAA77C /* RotationGesture */ = {
+			isa = PBXGroup;
+			children = (
+				8467554020135E7500BAA77C /* RotationGestureViewController.h */,
+				8467554120135E7500BAA77C /* RotationGestureViewController.m */,
+			);
+			path = RotationGesture;
+			sourceTree = "<group>";
+		};
+		8467554420135EE000BAA77C /* SwipeGesture */ = {
+			isa = PBXGroup;
+			children = (
+				8467554520135EF200BAA77C /* SwipeGestureViewController.h */,
+				8467554620135EF200BAA77C /* SwipeGestureViewController.m */,
+			);
+			path = SwipeGesture;
+			sourceTree = "<group>";
+		};
+		8467554820135F0300BAA77C /* PanGesture */ = {
+			isa = PBXGroup;
+			children = (
+				8467554920135F1600BAA77C /* PanGestureViewController.h */,
+				8467554A20135F1600BAA77C /* PanGestureViewController.m */,
+			);
+			path = PanGesture;
+			sourceTree = "<group>";
+		};
+		8467554C20135F2300BAA77C /* LongPressGesture */ = {
+			isa = PBXGroup;
+			children = (
+				8467554D20135F3700BAA77C /* LongPressGestureViewController.h */,
+				8467554E20135F3700BAA77C /* LongPressGestureViewController.m */,
+			);
+			path = LongPressGesture;
+			sourceTree = "<group>";
+		};
+		84EB209C20124D750060DEDC /* Tableview */ = {
+			isa = PBXGroup;
+			children = (
+				84EB20A020124E340060DEDC /* cell */,
+				84EB209D20124D980060DEDC /* TableviewViewController.h */,
+				84EB209E20124D980060DEDC /* TableviewViewController.m */,
+			);
+			path = Tableview;
+			sourceTree = "<group>";
+		};
+		84EB20A020124E340060DEDC /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				84EB20A1201254BC0060DEDC /* TableTableViewCell.h */,
+				84EB20A2201254BC0060DEDC /* TableTableViewCell.m */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		84EB20A42012608B0060DEDC /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				84EB20A5201260A60060DEDC /* ImagePickerViewController.h */,
+				84EB20A6201260A60060DEDC /* ImagePickerViewController.m */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		84FB92F9200FC35500456A99 = {
+			isa = PBXGroup;
+			children = (
+				84FB9304200FC35500456A99 /* ObjectiveC */,
+				84FB9303200FC35500456A99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84FB9303200FC35500456A99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84FB9302200FC35500456A99 /* ObjectiveC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84FB9304200FC35500456A99 /* ObjectiveC */ = {
+			isa = PBXGroup;
+			children = (
+				846755342013569C00BAA77C /* Gesture */,
+				84EB20A42012608B0060DEDC /* ImagePicker */,
+				84EB209C20124D750060DEDC /* Tableview */,
+				84FB931B200FC4D900456A99 /* CollectionView */,
+				84FB9305200FC35500456A99 /* AppDelegate.h */,
+				84FB9306200FC35500456A99 /* AppDelegate.m */,
+				84FB9308200FC35500456A99 /* ViewController.h */,
+				84FB9309200FC35500456A99 /* ViewController.m */,
+				84FB930B200FC35500456A99 /* Main.storyboard */,
+				84FB930E200FC35500456A99 /* Assets.xcassets */,
+				84FB9310200FC35500456A99 /* LaunchScreen.storyboard */,
+				84FB9313200FC35500456A99 /* Info.plist */,
+				84FB9314200FC35500456A99 /* main.m */,
+			);
+			path = ObjectiveC;
+			sourceTree = "<group>";
+		};
+		84FB931B200FC4D900456A99 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				84FB931F200FC55F00456A99 /* Cell */,
+				84FB931C200FC4F700456A99 /* CollectionViewController.h */,
+				84FB931D200FC4F700456A99 /* CollectionViewController.m */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		84FB931F200FC55F00456A99 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84FB9321200FC57500456A99 /* CellCollectionViewCell.h */,
+				84FB9320200FC57500456A99 /* CellCollectionViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84FB9301200FC35500456A99 /* ObjectiveC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FB9318200FC35500456A99 /* Build configuration list for PBXNativeTarget "ObjectiveC" */;
+			buildPhases = (
+				84FB92FE200FC35500456A99 /* Sources */,
+				84FB92FF200FC35500456A99 /* Frameworks */,
+				84FB9300200FC35500456A99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ObjectiveC;
+			productName = ObjectiveC;
+			productReference = 84FB9302200FC35500456A99 /* ObjectiveC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84FB92FA200FC35500456A99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = vishalvaghasiya;
+				TargetAttributes = {
+					84FB9301200FC35500456A99 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 84FB92FD200FC35500456A99 /* Build configuration list for PBXProject "ObjectiveC" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84FB92F9200FC35500456A99;
+			productRefGroup = 84FB9303200FC35500456A99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84FB9301200FC35500456A99 /* ObjectiveC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84FB9300200FC35500456A99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84FB9312200FC35500456A99 /* LaunchScreen.storyboard in Resources */,
+				84FB930F200FC35500456A99 /* Assets.xcassets in Resources */,
+				84FB930D200FC35500456A99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84FB92FE200FC35500456A99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8467553F20135E5F00BAA77C /* PinchGestureViewController.m in Sources */,
+				8439A8DF202227AE003B64BB /* MyViewViewController.m in Sources */,
+				8467554F20135F3700BAA77C /* LongPressGestureViewController.m in Sources */,
+				8467553B2013589800BAA77C /* TapGestureViewController.m in Sources */,
+				8467554B20135F1600BAA77C /* PanGestureViewController.m in Sources */,
+				84EB209F20124D980060DEDC /* TableviewViewController.m in Sources */,
+				84FB931E200FC4F700456A99 /* CollectionViewController.m in Sources */,
+				8467554220135E7500BAA77C /* RotationGestureViewController.m in Sources */,
+				84EB20A3201254BC0060DEDC /* TableTableViewCell.m in Sources */,
+				84675537201356B000BAA77C /* GestureViewController.m in Sources */,
+				8467554720135EF200BAA77C /* SwipeGestureViewController.m in Sources */,
+				84FB930A200FC35500456A99 /* ViewController.m in Sources */,
+				84FB9315200FC35500456A99 /* main.m in Sources */,
+				84FB9322200FC57500456A99 /* CellCollectionViewCell.m in Sources */,
+				8439A8E32022341C003B64BB /* PickerViewController.m in Sources */,
+				84EB20A7201260A60060DEDC /* ImagePickerViewController.m in Sources */,
+				84FB9307200FC35500456A99 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84FB930B200FC35500456A99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FB930C200FC35500456A99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84FB9310200FC35500456A99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84FB9311200FC35500456A99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84FB9316200FC35500456A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84FB9317200FC35500456A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84FB9319200FC35500456A99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ObjectiveC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84FB931A200FC35500456A99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = ObjectiveC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ObjectiveC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84FB92FD200FC35500456A99 /* Build configuration list for PBXProject "ObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FB9316200FC35500456A99 /* Debug */,
+				84FB9317200FC35500456A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FB9318200FC35500456A99 /* Build configuration list for PBXNativeTarget "ObjectiveC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FB9319200FC35500456A99 /* Debug */,
+				84FB931A200FC35500456A99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84FB92FA200FC35500456A99 /* Project object */;
+}
